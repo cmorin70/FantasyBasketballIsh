@@ -16,5 +16,10 @@ namespace FantasyBasketballStuff
         {
             InitializeComponent();
         }
+
+        private void initialScrapeButton_Click(object sender, EventArgs e)
+        {
+            InitialDataScraper.initialScrape();
+        }
     }
 }
