@@ -12,7 +12,7 @@ namespace FantasyBasketballStuff
 {
     class InitialDataScraper
     {
-        public static void getshitdone()
+        public static void initialScrape()
         {
             string baseLink = "http://www.basketball-reference.com/players/";
             char pageID = 'a';
